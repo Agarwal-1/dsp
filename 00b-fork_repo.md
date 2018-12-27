@@ -40,7 +40,7 @@ Make sure that you are [signed in](https://github.com/login) to GitHub.
 Click the **Fork** button at the upper right hand corner of the page:
 
 ![fork](img/forking_repo.png)
-
+fireworks
 This makes a personal copy of the repository that you can edit. Your forked copies will show up in your *Repositories* section.
 
 This repository is `thisismetis/dsp`. Your forked copy will be `your_github_user_name/dsp`.
@@ -68,5 +68,5 @@ Here's your first chance to practice this:
 
 What is your favorite emoji?  (Check out this [emoji cheat sheet](http://www.emoji-cheat-sheet.com/).)
 
->> :fireworks:
+>> :joy:
 
