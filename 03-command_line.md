@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>>* show current working directory path: pwd
+  * change directory: cd
+  * creating a directory: mkdir
+  * deleting a directory: rmdir
+  * creating a file using `touch` command :touch
+  * deleting a file: rm
+  * renaming a file: mv
+  * listing hidden files: ls -a
+  * copying a file from one directory to another: CP
+  *outputs the contents of a file to the terminal: cat
 
 ---
 
@@ -35,7 +44,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+`ls`  -lists all files in the directory
+`ls -a`  -all files (including hidden)
+`ls -l`  -displays long form
+`ls -lh`  -long form, human readable
+`ls -lah`  -long form, all files, human readable
+`ls -t`  -orders files and directories by when they were last modified
+`ls -Glp`- long form excluding owners name, long form lists, displays directories with a /
+
 
 ---
 
@@ -43,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -R: displays subdirectories
+ls -i: enables the command to be case insensitive
+ls -r: recursive, deletes directories and child directories
+ls -u: displays file by last time accessed
+ls -x: displays files as rows
 
 ---
 
@@ -51,7 +72,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Xargs takes output of a command and passes it as an argument of another command
+xargs find -name "*.txt".  The find command will search all text files in the current directory for name.
 
  
 
